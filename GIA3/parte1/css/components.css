@@ -1,0 +1,45 @@
+/*estilos para el componente header */
+.app-header {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+
+}
+
+.app-header nav a {
+    color: azure;
+    margin: 10px;
+    text-decoration:none;
+    margin:0 10px;
+
+}
+.app-header nav a:hover{    
+    text-decoration:underline;
+
+}
+
+/*estilos para el content*/
+.app-content {
+    margin: 10px;
+    border: 1px solid rgb(196, 175, 175);
+    border: radius 8px;
+    padding: 12px;
+
+
+}
+.app-content h1 {
+    font: size 18px;
+    margin:0 auto;
+    color:rgb(217, 36, 36)
+}
+
+/* estilos para el footer*/
+
+.app-footer {
+    background-color: rgb(221, 22, 35) ;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    font: bold;
+    
+}
