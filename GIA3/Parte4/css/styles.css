@@ -1,0 +1,70 @@
+:root {
+  --bg: #f8f9fa;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  padding: 0;
+  color: #212529;
+}
+
+#card .card, .card.mx-auto {
+  margin: 0 auto;
+}
+
+#formLogin {
+  max-width: 420px;
+  margin: 1.5rem auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+#formAlert .alert {
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin-top: 20px;
+  max-width: 1100px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+#cardContainer .card {
+  width: 100%;
+}
+
+pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}

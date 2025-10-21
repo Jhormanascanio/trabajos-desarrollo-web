@@ -1,0 +1,20 @@
+<div class="card mx-auto" style="max-width: 540px;">
+  <div class="row g-0 align-items-center">
+    <div class="col-5">
+      <img src="https://picsum.photos/300/180" class="img-fluid rounded-start" alt="imagen aleatoria">
+    </div>
+    <div class="col-7">
+      <div class="card-body">
+        <h5 class="card-title">Componente Card</h5>
+        <p class="card-text">Tarjeta de ejemplo que muestra el uso de componentes Bootstrap y JS puro.</p>
+        <button id="btnSaludo" class="btn btn-primary">Saludar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById("btnSaludo").addEventListener("click", () => {
+    alert("¡Hola desde la tarjeta!");
+  });
+</script>
